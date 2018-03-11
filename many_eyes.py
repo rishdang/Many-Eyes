@@ -5,9 +5,11 @@ for windows as windows sucks. I wrote this to teach interns and analysts at KPMG
 how to collect relevant data automagically with python from public sources as part
 of the infosec training. 
 
-many-eyes reads data from terms.txt and outputs intel as nice json dumps. The public 
-release contains only twitter and shodan integration however internally, multiple other 
-systems like censys, facebook, virustotal et al are supported.
+many-eyes reads data from terms.txt and outputs intel as nice json dumps. Before running 
+it, configure your api keys in config.py.
+
+The public release contains only twitter and shodan integration however internally, multiple 
+other systems like censys, facebook, virustotal et al are supported.
 
 The program is quite modular, and can be extended easily by adding relevant service code 
 and configurations in respective files. 
