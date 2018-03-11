@@ -1,5 +1,5 @@
 '''
-"many eyes" is a basic, quick and dirty, multi-threaded program to scrap data from
+"many eyes" is a quick and dirty, multi-threaded program to scrape data from
 multiple OSINT sources. This is cross platform however has zero exception handling 
 for windows as windows sucks. I wrote this to teach interns and analysts at KPMG on 
 how to collect relevant data automagically with python from public sources as part
@@ -9,9 +9,10 @@ many-eyes reads data from terms.txt and outputs intel as nice json dumps. The pu
 release contains only twitter and shodan integration however internally, multiple other 
 systems like censys, facebook, virustotal et al are supported.
 
-The program is quite modular, and extended easily by only adding relevant service code 
-and configurations in respective files. Performance wise it is just okay, can be tuned a lot
-and probably will have a lot of bugs.
+The program is quite modular, and can be extended easily by adding relevant service code 
+and configurations in respective files. 
+
+Performance wise it is just okay, can be tuned a lot and probably will have a lot of bugs.
 
 In case of issues, reach out to admin@theprohack.com
 '''
